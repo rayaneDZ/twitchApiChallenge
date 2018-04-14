@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <h2 class="title">Twitch Scouter</h2>
+  <div class="container">
+    <div class="navigation">
+      <div id="all" class="active"> <p>All</p> </div>
+      <div id="online"> <p>Online</p> </div>
+      <div id="offline"> <p>Offline</p> </div>
+    </div>
+    <div class="search">
+      <input type="text" name="search" value="" placeholder="Search Users" id="search">
+    </div>
+    <div id="users">
+      <div id="onlineUsers"></div>
+      <div id="offlineUsers"></div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
+  <script src="script.js" charset="utf-8"></script>
+</body>
+</html>
